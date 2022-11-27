@@ -43,7 +43,7 @@ If you take a look at the auth.json file, there´s a variable called `DEPLOY_TOK
 
 So you need to head to Settings > Repository > Deploy tokens and create a new one. Name it as you like and select the read_repository and read_registry scopes. Copy the token and store it in a variable named `GITLAB_DEPLOY_TOKEN` the value should be `AWS:PASTED_TOKEN`, you should mask this one too.
 
-
+## That´s pretty much it! if you run into any trouble remember, gitlab logs are a really powerful tool and you´ll, more than likely, found any solution you need there, other than that, feel free to contact me with any questions, I´m always happy to help!
 
 
 
